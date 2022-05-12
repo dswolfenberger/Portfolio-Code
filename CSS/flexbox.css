@@ -56,8 +56,11 @@ html {
             padding:17px 20px 15px 20px;
             text-align: center;
             text-decoration: none;
-            transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
-            width: auto;
+            transition: .2s;
+            width: 120px;
+        }
+        .button1.on {
+            width:125px;
         }
           .button1:hover{
             background-color: #0047ff;
