@@ -117,3 +117,11 @@ i {
     .behance:hover, .dribbble:hover, .linkedIn:hover{
         color:rgb(159, 173, 209);
     }
+@media (max-width:800px) {
+    .container1, .container2{
+        display:flex;
+    }
+    h1 {
+        font-size:80px;
+    }
+}
