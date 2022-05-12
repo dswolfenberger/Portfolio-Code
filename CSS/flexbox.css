@@ -13,22 +13,25 @@ html {
     flex-direction: column;
     flex-wrap:wrap;
     width: 60%;
-}
-.container1 div {
     padding-left:50px;
 }
-    .item1 {
+.item1 ul {
+    padding-inline-start:0px !important;
+}
+.item1 {
+       
         margin-top:1.5em;
         flex: 1;
         order: 1;
     }
+    
     .item2 {
         margin-top: 6em;
         flex: 1;
         order: 2;
     }
     .item3 {
-        margin-top: -2em;
+        margin-top: -3em;
         flex: 2;
         order: 3;
     }
@@ -40,7 +43,7 @@ html {
         .button1 {
             background-color: transparent;
             border: 3px solid #0047ff;
-            border-radius: 8px;
+            border-radius: 13px;
             color: #fff;
             cursor: pointer;
             display: inline-block;
@@ -50,11 +53,9 @@ html {
             line-height: 20px;
             margin: 0;
             outline: none;
-            padding: 15px 23px;
-            position: relative;
+            padding:17px 20px 15px 20px;
             text-align: center;
             text-decoration: none;
-            touch-action: manipulation;
             transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
             width: auto;
         }
