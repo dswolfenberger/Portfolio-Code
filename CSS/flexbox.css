@@ -15,78 +15,79 @@ html {
     width: 60%;
     padding-left:50px;
 }
-.item1 ul {
-    padding-inline-start:0px !important;
+    .item1 ul {
+        padding-inline-start:0px !important;
+    }
+        .item1 {
+            margin-top:1.5em;
+            flex: 1;
+            order: 1;
+        }
+        .item2 {
+            margin-top: 6em;
+            flex: 1;
+            order: 2;
+        }
+        .item3 {
+            margin-top: -3em;
+            flex: 2;
+            order: 3;
+        }
+        .item4 {
+            flex: 1;
+            order: 4;
+        }
+ /* (custom button style by me) button code from 88 beautiful css buttons https://getcssscan.com/css-buttons-examples */
+ .button1 {
+    background-color: transparent;
+    border: 3px solid #0047ff;
+    border-radius: 13px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family:roc-grotesk, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: auto;
+    outline: none;
+    padding:17px 20px 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: .2s;
+    width: 120px;
 }
-.item1 {
-       
-        margin-top:1.5em;
-        flex: 1;
-        order: 1;
+    .button1.on {
+        width:125px;
     }
-    
-    .item2 {
-        margin-top: 6em;
-        flex: 1;
-        order: 2;
+    .button1:hover{
+        background-color: #0047ff;
     }
-    .item3 {
-        margin-top: -3em;
-        flex: 2;
-        order: 3;
+    .button1:focus{
+        border: 3px solid #0030aa;
+        background-color: #0047ff;
+        width:125px;
     }
-    .item4 {
-        flex: 1;
-        order: 4;
-    }
-    /* (custom button style by me) button code from 88 beautiful css buttons https://getcssscan.com/css-buttons-examples */
-        .button1 {
-            background-color: transparent;
-            border: 3px solid #0047ff;
-            border-radius: 13px;
-            color: #fff;
-            cursor: pointer;
-            display: inline-block;
-            font-family:roc-grotesk, sans-serif;
-            font-size: 17px;
-            font-weight: 600;
-            line-height: 20px;
-            margin: 0;
-            outline: none;
-            padding:17px 20px 15px 20px;
-            text-align: center;
-            text-decoration: none;
-            transition: .2s;
-            width: 120px;
-        }
-        .button1.on {
-            width:125px;
-        }
-          .button1:hover{
-            background-color: #0047ff;
-          }
-          .button1:focus{
-            border: 3px solid #0030aa;
-            background-color: #0047ff;
-          }
-/* .container2 {
+.container2 {
     display: flex;
-    align-items:flex-start;
     flex-direction: column;
     background-color:black;
     position: absolute;
+    padding-left: 50px;
     left: 0;
     width:100%;
+    margin-top:4em;
+    padding-inline-start:0px !important;
 }
     .container2 div {
-        padding:10px ;
+        padding-left:60px;
     }
         .item5 {
-            margin: 2em;
-            flex: 2;
+            padding:40px;
+            flex: 1;
             order: 1;
         }
-*/
+
 body p {
     font-family: montserrat, sans-serif;
     font-weight: 400;
